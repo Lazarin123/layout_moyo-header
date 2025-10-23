@@ -6,7 +6,8 @@ html {
   font-family: Roboto, Arial, sans-serif;
   font-weight: 500;
   font-size: 12px;
-  font-style: normal;
+  line-height: 100%;
+  letter-spacing: 0%;
   margin: 0;
   padding: 0;
 }
@@ -20,12 +21,15 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
+  width: 1200px;
+  height: 60px;
   margin: 0;
   padding: 10px 50px;
 }
 
 .header__logo {
+  width: 40px;
+  height: 40px;
   padding: 0;
 }
 
@@ -40,11 +44,10 @@ body {
   display: flex;
   margin: 0;
   padding: 0;
-  margin-left: 20px;
 }
 
 .lista__item {
-  margin-left: 20px;
+  margin-left: 25px;
 }
 
 .nav__link {
@@ -68,11 +71,11 @@ body {
 .is-active::after {
   content: '';
   position: absolute;
+  width: 37px;
+  height: 4px;
   left: 0;
   right: 0;
   bottom: 0;
-  width: 37px;
-  height: 4px;
   margin-bottom: -20px;
   border-radius: 8px;
   background-color: var(--blue);
