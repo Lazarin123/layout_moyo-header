@@ -22,35 +22,33 @@ body {
   justify-content: space-between;
   width: 100%;
   margin: 0;
+  padding: 10px 50px;
+}
+
+.header__logo {
   padding: 0;
 }
 
-.header_logo {
-  padding: 10px 0 10px 50px;
-}
-
-.header_nav {
+.nav {
   display: flex;
   text-transform: uppercase;
-  padding-right: 50px;
-  padding-top: 22px;
-  padding-bottom: 23px;
+  padding: 0;
 }
 
-ul {
+.lista {
   list-style-type: none;
   display: flex;
   margin: 0;
   padding: 0;
-}
-
-ul > li + li {
   margin-left: 20px;
 }
 
-.nav_link {
+.lista__item {
+  margin-left: 20px;
+}
+
+.nav__link {
   text-decoration: none;
-  height: 15px;
   top: auto;
   line-height: 100%;
   display: inline-block;
